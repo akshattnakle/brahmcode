@@ -1,6 +1,8 @@
+import os
 from flask import Flask, jsonify, request, send_from_directory
 
 app = Flask(__name__, static_folder=None)
+FRONTEND_DIR = os.path.abspath(os.path.join(app.root_path, "..", "Frontend"))
 
 # Each skill: [learning link, practice task]. Prerequisites are listed first in each job.
 SKILLS = {
@@ -47,12 +49,12 @@ def normalize(text):
 
 @app.get("/")
 def home():
-    return send_from_directory(app.root_path, "index.html")
+    return send_from_directory(FRONTEND_DIR, "index.html")
 
 
 @app.get("/<any('style.css', 'script.js'):name>")
 def assets(name):
-    return send_from_directory(app.root_path, name)
+    return send_from_directory(FRONTEND_DIR, name)
 
 
 @app.get("/api/jobs")
