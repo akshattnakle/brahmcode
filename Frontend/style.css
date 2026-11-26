@@ -1,0 +1,17 @@
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,sans-serif;background:#f3f5fa;color:#1c2233}
+  main{max-width:720px;margin:auto;padding:16px}
+  h1{margin:8px 0 4px}
+  .card{background:#fff;border-radius:12px;padding:16px;margin:14px 0;box-shadow:0 2px 8px #0001}
+  label{display:block;font-weight:600;margin:10px 0 6px}
+  select,input[type=text]{width:100%;padding:10px;border:1px solid #c8cedd;border-radius:8px;font-size:16px}
+  button{padding:10px 16px;border:0;border-radius:8px;background:#3b5bdb;color:#fff;font-size:15px;cursor:pointer;margin:12px 8px 0 0}
+  button.alt{background:#e4e8f3;color:#1c2233}
+  .chip{display:inline-block;padding:5px 10px;border-radius:20px;margin:3px;font-size:14px}
+  .have{background:#d3f9d8}.miss{background:#ffe3e3}
+  .bar{height:16px;background:#e4e8f3;border-radius:10px;overflow:hidden}
+  .bar div{height:100%;background:#2f9e44;transition:width .3s}
+  .step{display:flex;gap:10px;padding:12px 0;border-top:1px solid #eee}
+  .step input{width:20px;height:20px;flex:none}
+  .done b{text-decoration:line-through;color:#777}
+  .hidden{display:none}

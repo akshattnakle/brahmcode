@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skill Gap Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Skill Gap Analyzer</h1>
+  <p>Pick your dream job, add your skills, and get a learning roadmap.</p>
+
+  <section class="card">
+    <label for="job">Dream job</label>
+    <select id="job"></select>
+    <label for="skills">Current skills (comma separated)</label>
+    <input type="text" id="skills" placeholder="e.g. HTML, CSS, Git">
+    <button id="analyze">Analyze</button>
+    <button id="reset" class="alt">Reset plan</button>
+    <p id="msg" role="status"></p>
+  </section>
+
+  <div id="result" class="hidden">
+    <section class="card">
+      <h2>Readiness: <span id="percent"></span></h2>
+      <div class="bar"><div id="fill"></div></div>
+      <p id="summary"></p>
+      <h3>Skills you have</h3><div id="haveList"></div>
+      <h3>Missing skills</h3><div id="missList"></div>
+    </section>
+    <section class="card">
+      <h2>Learning roadmap</h2>
+      <p>Tick a skill once you have learned it. Progress saves automatically.</p>
+      <p id="progress"></p>
+      <div id="roadmap"></div>
+    </section>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
