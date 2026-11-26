@@ -8,6 +8,24 @@ Skill Gap Analyzer is a project designed to help users understand their current 
 
 The Skill Gap Analyzer aims to help users identify skill gaps and understand which skills they need to develop for their desired career path.
 
+📝 Project Summary
+
+Skill Gap Analyzer is a web-based application that helps users identify the skills they need for their desired career path.
+
+Users can:
+
+- Select their desired job role.
+- Enter their existing skills.
+- Analyze their current skills against job requirements.
+- Identify missing skills.
+- Get a personalized learning roadmap.
+- Track completed skills and monitor progress.
+- Save their progress locally in the browser.
+
+The application uses a Python Flask backend to analyze skills and an HTML, CSS, and JavaScript frontend to provide an interactive user experience.
+
+Main Objective: To help students and job seekers identify skill gaps, improve their knowledge, and prepare for their desired careers.
+
 ✨ Project Structure
 
 brahmcode/
