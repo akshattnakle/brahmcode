@@ -53,7 +53,9 @@ To help users understand their skill gaps and work towards their professional an
 
 👨‍💻 Contributors
 
-Team Brahmcode
+Akshat Nakle (Team Lead)
+Devansh Shrivastava (Member)
+Gitansh Raut (Member)
 
 📄 License
 
